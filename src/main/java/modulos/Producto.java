@@ -62,10 +62,13 @@ public class Producto {
     }
     
     //ToString
-
     @Override
     public String toString() {
-        return "Producto{" + "codigo=" + codigo + ", nombre=" + nombre + ", precio=" + precio + ", cantidadDisponible=" + cantidadDisponible + '}';
-    }
+        return "--Informacion del producto\n--" 
+                + "\nCodigo: " + codigo 
+                + "\nNombre del producto: " + nombre 
+                + "\nPrecio: $" + precio 
+                + "\nCantidad Disponible: " + cantidadDisponible;
+    }//Fin de ToString
       
 }//Fin de Clase Producto

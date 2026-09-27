@@ -61,7 +61,11 @@ public class Producto {
         this.cantidadDisponible = cantidadDisponible;
     }
     
-    
-    
-    
+    //ToString
+
+    @Override
+    public String toString() {
+        return "Producto{" + "codigo=" + codigo + ", nombre=" + nombre + ", precio=" + precio + ", cantidadDisponible=" + cantidadDisponible + '}';
+    }
+      
 }//Fin de Clase Producto
